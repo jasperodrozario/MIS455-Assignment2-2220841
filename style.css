@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f16100;
+}
+
+.header-div {
+    margin-top: 250px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    margin: 10px;
+    margin-top: 200px;
+    float: right;
+    color: white;
+}
+
+#content-box {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.innerStyle {
+    margin: 50px;
+    margin-top: 50px;
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #2b2b2b;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand {
+    padding: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.search {
+    position: relative;
+    float: right;
+}
+
+.dropbtn {
+    background-color: #2b2b2b;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Arrow styles */
+.arrow {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: white;
+    position: absolute;
+    top: 18px;
+    left: 80px;
+}
+  
+/* Show dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.dropdown-menu li {
+    padding: 15px;
+    width: 110px;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #00000046;
+}
+
+/* Search bar styles */
+#search-bar {
+    height: 12px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#search-button {
+    height: 35px;
+    width: 80px;
+    background-color: transparent;
+    border: #f16100 2px solid;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #f16100;
+    border-width: 2px;
+}
+
+/* Show dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
